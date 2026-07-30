@@ -9,3 +9,8 @@ pillow
 pytesseract
 deep-translator
 fpdf
+PyPDF2
+reportlab
+requests
+beautifulsoup4
+gunicorn

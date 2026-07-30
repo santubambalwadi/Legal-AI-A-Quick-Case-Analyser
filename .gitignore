@@ -1,7 +1,49 @@
+# Python bytecode and caches
+**/__pycache__/
+**/*.py[cod]
+**/*.pyo
+**/*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
 venv/
-__pycache__/
-*.pyc
-uploads/
+env/
+ENV/
+**/.venv/
+**/venv/
+**/env/
+**/ENV/
+
+# Environment and local config
 .env
-*.pdf
-*.docx
+.env.*
+!.env.example
+instance/
+*.sqlite3
+
+# Temporary and generated files
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Flask app runtime artifacts
+**/uploads/
+**/history.json
+**/uploaded.pdf
+**/report.pdf
+**/Legal_Report.pdf
+
+# Large local datasets not required for deployment
+Legal Doc/data/data/
