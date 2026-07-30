@@ -2,5 +2,6 @@ services:
   - type: web
     name: a-quick-case-analyser
     env: python
-    buildCommand: pip install -r "Legal Doc/requirements.txt"
-    startCommand: gunicorn --chdir "Legal Doc" app:app
+    rootDir: Legal Doc
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
