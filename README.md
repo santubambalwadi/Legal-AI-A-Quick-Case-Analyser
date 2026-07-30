@@ -12,9 +12,9 @@ An **AI-powered tool** that extracts, summarizes, classifies, and translates leg
 ✅ **Downloadable PDF report** with summary, classification, and risk score.  
 
 ## **🛠️ Tech Stack**  
-- **Backend:** Flask, Transformers (`facebook/bart-large-cnn`, `facebook/bart-large-mnli`), PyMuPDF, Pytesseract (OCR).  
+- **Backend:** Python, Flask, Transformers.  
 - **AI Models:** `flan-t5-large` (for chatbot & text refinement).  
-- **Frontend:** HTML, CSS, JavaScript (Flask Jinja templates).  
+- **Frontend:** HTML, CSS, JavaScript .  
 - **Translation:** `deep-translator` (Google Translate API).  
 - **Storage:** Local `uploads/` directory for document processing.  
 
@@ -62,22 +62,18 @@ Legal-Doc-Analyzer/
 3️⃣ **Summarization is performed** using chunk-based processing (**handles 50+ pages**).  
 4️⃣ **Classification determines** the legal category (**e.g., Property Dispute, Criminal Case**).  
 5️⃣ **Risk Score is assigned** (**Low, Medium, High**).  
-6️⃣ **Users can translate** the summary into **11 languages**.  
+6️⃣ **Users can translate** the summary into **5 languages**.  
 7️⃣ **Chatbot answers legal queries** based on document content.  
 8️⃣ **Users can download a report** with all processed data.  
 
 ## **📜 Supported Languages for Translation**
 - **English (en)**
+- **Kannada (ka)**
 - **Hindi (hi)**
-- **French (fr)**
-- **Spanish (es)**
 - **Tamil (ta)**
-- **Bengali (bn)**
 - **Marathi (mr)**
-- **Gujarati (gu)**
 - **Telugu (te)**
-- **Urdu (ur)**
-- **Punjabi (pa)**
+
 
 ## **💡 Future Enhancements**
 🚀 **Automated Legal Precedent Finder** – Suggests similar cases from legal databases.  
