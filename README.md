@@ -83,5 +83,7 @@ Legal-Doc-Analyzer/
 ## **📌 Contribution**
 Want to improve this project? **Fork, modify, and submit a pull request!** 🎯  
 
-## **📜 License**
-This project is licensed under the **MIT License** – free to use, modify, and distribute.  
+## 📜 License
+
+© 2026 Santosh Bambalwadi. All rights reserved.
+This project was developed as an academic major project. Unauthorized copying, modification, or commercial distribution without permission is prohibited.  
